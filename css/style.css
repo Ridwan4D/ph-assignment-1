@@ -79,10 +79,72 @@ main section {
     font-weight: bold;
     margin: 0 0 40px;
 }
-.discount-section img{
+
+.discount-section img {
     width: auto;
 }
+
 /* Discount section end here */
+
+
+/* party section start here */
+.party-section {
+    height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(7, 2, 17, 0.9), rgba(7, 2, 17, 0)), url("../image/banner-img-2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    display: flex;
+    color: #fff;
+}
+
+.party-section .party-text {
+    margin: 100px 0 0px 100px;
+    width: 50%;
+}
+
+.party-text h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    margin: 0;
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+.party-text button {
+    font-family: 'Inter', sans-serif;
+    margin: 7px 0 0 15px;
+    border: 0;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.party-text button:active {
+    background-color: rgb(96, 80, 80);
+    border-radius: 10px;
+}
+
+
+.party-section .party-img {
+    margin: 60px 20px 0 50px;
+}
+
+.party-img img {
+    width: 270px;
+}
+
+/* party section end here */
+
 
 /* main part end here */
 /* .................................................... */
