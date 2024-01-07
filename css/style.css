@@ -9,15 +9,14 @@ font-family: 'Merriweather', serif;
 */
 /* .................................................... */
 /* common code start here */
-.bg-banner{
-    height: 80vh;
+.bg-banner {
     width: 100%;
-    background-image: linear-gradient(rgba(7, 2, 17, 0.7), rgba(7, 2, 17, 0)), url("../image/Banner-img.png");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 15px;
     color: #fff;
 }
+
 /* common code end here */
 /* ..................................................... */
 /* header part start here */
@@ -115,10 +114,12 @@ main section {
     font-size: 17px;
     font-family: 'Inter', sans-serif;
 }
-.party-text p> span{
+
+.party-text p .aqua-text {
     color: aqua;
     font-weight: bold;
 }
+
 .party-text button {
     font-family: 'Inter', sans-serif;
     margin: 7px 0 0 15px;
@@ -143,12 +144,44 @@ main section {
 .party-img img {
     width: 270px;
 }
+
 /* party section end here */
 
 /* date and time section start here */
-.date-time-sec{
+.date-time-sec {
+    height: 15vh;
+    background: linear-gradient(rgba(250, 190, 194, 0.7), rgba(7, 2, 17, 0));
+    padding: 100px 0;
+    text-align: center;
+}
+
+.date-time-sec h3 {
+    color: #070211;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
 
 }
+
+.date-time-sec .red-text {
+    color: red;
+}
+
+.date-time-sec button {
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.date-time-sec button:active{
+    color: aqua;
+}
+
 /* date and time section end here */
 
 /* main part end here */
