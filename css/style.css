@@ -117,7 +117,10 @@ main section {
     font-size: 17px;
     font-family: 'Inter', sans-serif;
 }
-
+.party-text p> span{
+    color: aqua;
+    font-weight: bold;
+}
 .party-text button {
     font-family: 'Inter', sans-serif;
     margin: 7px 0 0 15px;
