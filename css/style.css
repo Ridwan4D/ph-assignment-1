@@ -178,11 +178,75 @@ main section {
     border-radius: 10px;
     cursor: pointer;
 }
-.date-time-sec button:active{
+
+.date-time-sec button:active {
     color: aqua;
 }
 
 /* date and time section end here */
+
+/* new best offer section start here */
+.new-offer-sec {
+    margin-top: 150px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.offer {
+    margin-top: 70px;
+    width: 400px;
+}
+
+.offer .best-offer {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    margin: 0;
+}
+
+.offer h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.color-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    margin: 0;
+}
+
+.new-offer-sec .img-div {
+    height: 370px;
+    width: 370px;
+    border: 15px solid red;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.img-div img {
+    width: 320px;
+    margin: 25px 0;
+}
+
+.new-offer-sec .new-year {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.new-year .year {
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    margin:0 0 10px;
+}
+.new-year img{
+    margin-top: 40px;
+}
+/* new best offer section end here */
 
 /* main part end here */
 /* .................................................... */
