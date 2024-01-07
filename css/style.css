@@ -1,5 +1,5 @@
 /* font url imported here */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap");
 /* font url close */
 
 /* font family is here */
@@ -13,6 +13,36 @@ font-family: 'Merriweather', serif;
 /* common code end here */
 /* ..................................................... */
 /* header part start here */
+header {
+    margin: 50px 140px 100px;
+}
+
+.header {
+    height: 80vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url("../image/Banner-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.header h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 140px 180px 0;
+}
+
+.header h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0 150px;
+}
 
 /* header part end here */
 /* ..................................................... */
