@@ -20,7 +20,7 @@ header {
 .header {
     height: 80vh;
     width: 100%;
-    background-image:linear-gradient(rgba(7, 2, 17, 0.7), rgba(7, 2, 17, 0)), url("../image/Banner-img.png");
+    background-image: linear-gradient(rgba(7, 2, 17, 0.7), rgba(7, 2, 17, 0)), url("../image/Banner-img.png");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 15px;
@@ -44,12 +44,46 @@ header {
 /* header part end here */
 /* ..................................................... */
 /* main part start here */
-main{
+main {
     margin: 0 140px 100px;
 }
-main section{
+
+main section {
     margin: 70px 0 30px;
 }
+
+/* Discount section start here */
+.discount-section {
+    padding: 20px 150px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.discount-section h1 {
+    color: #F00;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.discount-section p {
+    margin: 40px 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F00;
+}
+
+.discount-section h2 {
+    color: #070211;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+.discount-section img{
+    width: auto;
+}
+/* Discount section end here */
+
 /* main part end here */
 /* .................................................... */
 /* footer part start here */
