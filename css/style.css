@@ -9,7 +9,15 @@ font-family: 'Merriweather', serif;
 */
 /* .................................................... */
 /* common code start here */
-
+.bg-banner{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(7, 2, 17, 0.7), rgba(7, 2, 17, 0)), url("../image/Banner-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    color: #fff;
+}
 /* common code end here */
 /* ..................................................... */
 /* header part start here */
@@ -19,12 +27,7 @@ header {
 
 .header {
     height: 80vh;
-    width: 100%;
     background-image: linear-gradient(rgba(7, 2, 17, 0.7), rgba(7, 2, 17, 0)), url("../image/Banner-img.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 15px;
-    color: white;
     font-family: 'Merriweather', serif;
     text-align: center;
 }
@@ -90,13 +93,8 @@ main section {
 /* party section start here */
 .party-section {
     height: 75vh;
-    width: 100%;
     background-image: linear-gradient(90deg, rgba(7, 2, 17, 0.9), rgba(7, 2, 17, 0)), url("../image/banner-img-2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 15px;
     display: flex;
-    color: #fff;
 }
 
 .party-section .party-text {
@@ -145,9 +143,13 @@ main section {
 .party-img img {
     width: 270px;
 }
-
 /* party section end here */
 
+/* date and time section start here */
+.date-time-sec{
+
+}
+/* date and time section end here */
 
 /* main part end here */
 /* .................................................... */
