@@ -320,19 +320,69 @@ main section {
     font-weight: bolder;
     margin: 0;
 }
-.portfolio-img{
+
+.portfolio-img {
     margin-top: 30px;
 }
-.portfolio-img img{
+
+.portfolio-img img {
     width: 370px;
     margin: 12px 12px;
     transition: all ease .2s;
 }
-.portfolio-img img:hover{
+
+.portfolio-img img:hover {
     border-radius: 20px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
+
 /* holiday sale section end here */
+
+/* mail section start here */
+.mail-section {
+    background-color: rgba(250, 190, 194, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.mail-section h2 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 15px 0 0;
+}
+
+.mail-section .color-text {
+    margin: 10px 200px 50px;
+}
+
+.mail-section input {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 0;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-right: 0;
+}
+
+.mail-section button {
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+    border-top: 3px solid red;
+    border-bottom: 5px solid red;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 0;
+}
+/* mail section end here */
 /* main part end here */
 /* .................................................... */
 /* footer part start here */
