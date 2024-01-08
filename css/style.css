@@ -18,6 +18,7 @@ font-family: 'Merriweather', serif;
 }
 
 .color-text {
+    font-family: 'Inter', sans-serif;
     color: rgba(7, 2, 17, 0.60);
     font-size: 18px;
     margin: 0;
@@ -25,6 +26,8 @@ font-family: 'Merriweather', serif;
 
 .red-text {
     color: red;
+    font-family: 'Inter', sans-serif;
+
 }
 
 /* common code end here */
@@ -295,7 +298,7 @@ main section {
     position: relative;
 }
 
-.holiday-bg-img img{
+.holiday-bg-img img {
     width: 500px;
     position: relative;
     right: 610px;
@@ -304,6 +307,32 @@ main section {
 
 /* holiday sale section end here */
 
+/* portfolio section start here */
+.portfolio-text .red-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.portfolio-text h2 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+.portfolio-img{
+    margin-top: 30px;
+}
+.portfolio-img img{
+    width: 370px;
+    margin: 12px 12px;
+    transition: all ease .2s;
+}
+.portfolio-img img:hover{
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2); 
+}
+/* holiday sale section end here */
 /* main part end here */
 /* .................................................... */
 /* footer part start here */
