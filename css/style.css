@@ -17,6 +17,15 @@ font-family: 'Merriweather', serif;
     color: #fff;
 }
 
+.color-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    margin: 0;
+}
+
+.red-text {
+    color: red;
+}
 /* common code end here */
 /* ..................................................... */
 /* header part start here */
@@ -165,10 +174,6 @@ main section {
 
 }
 
-.date-time-sec .red-text {
-    color: red;
-}
-
 .date-time-sec button {
     margin-top: 20px;
     padding: 10px 20px;
@@ -215,12 +220,6 @@ main section {
     margin: 10px 0;
 }
 
-.color-text {
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 18px;
-    margin: 0;
-}
-
 .new-offer-sec .img-div {
     height: 370px;
     width: 370px;
@@ -243,12 +242,54 @@ main section {
     font-size: 48px;
     font-weight: bold;
     color: red;
-    margin:0 0 10px;
+    margin: 0 0 10px;
 }
-.new-year img{
+
+.new-year img {
     margin-top: 40px;
 }
+
 /* new best offer section end here */
+
+/* holiday sale section start here */
+.holiday-sale-sec {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.holiday-sale-sec .header-para {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-sec .heading-1 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+
+}
+.holiday-img{
+    margin-top: 50px;
+    position: relative;
+}
+.holiday-img :nth-child(1){
+    float: right;
+}
+.holiday-img :nth-child(2){
+    position: relative;
+    top: 75px;
+    left: 395px;
+}
+.holiday-img :nth-child(3){
+    width: 100%;
+}
+.holiday-img :nth-child(4){
+    width: 500px;
+    position: relative;
+    right: 235px;
+    bottom: 480px;
+}
+/* holiday sale section end here */
 
 /* main part end here */
 /* .................................................... */
