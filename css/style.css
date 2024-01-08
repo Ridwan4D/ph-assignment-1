@@ -382,10 +382,42 @@ main section {
     border-bottom-right-radius: 40px;
     margin-left: 0;
 }
+
 /* mail section end here */
 /* main part end here */
 /* .................................................... */
 /* footer part start here */
-
+.footer {
+    background-color: #070211;
+    padding: 120px 140px;
+}
+hr{
+    border: .5px solid rgba(255, 255, 255, 0.15);
+}
+.address-div, .right-div{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    width: 300px;
+}
+.footer p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+.right-side p{
+    margin-right: 150px;
+}
+.footer .icon-div{
+    text-align: center;
+    margin: 10px;
+}
+.footer .icon-div img{
+    margin: 10px;
+}
 /* footer part end here */
 /* .................................................... */
